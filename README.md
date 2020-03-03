@@ -21,3 +21,10 @@ output  : Day image / Night image
 command : python simple_day_night_classifier.py -i <path_to_input_image> [ --threshold <threshold_value_for_hsv_avg_brightness> ] [ --debug <True> ]
 
 output  : Image, hsv_average, Day image / Night image
+
+Extra:
+
+skip unlucky floor count
+
+command : python last_unlucky_floor.py  ---> Enter floor len : <input floor len>
+output  : last floor number
